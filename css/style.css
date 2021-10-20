@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../assets/images/BG-1.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300vh;
+    overflow-x: hidden;
+}
+.logo{
+    /* margin-top: 40px; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo img{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+.toggler{
+    display: none;
+}
+nav{
+    margin-bottom: 85px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+li a:hover{
+    color: #C81313;  
+}
+a.active{
+    color: #C81313;  
+}
+.wrapper{
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/images/IbetoHotels.jpg");
+}
+
+.content{
+    position: absolute;
+    top: 97%;
+    width: 100%;
+    text-align: center;
+}
+.content p{
+    color: #fff;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content p span{
+    font-size: 55px;
+} 
+.row1{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 205%;
+    height: 50px;
+    text-align: center;
+}
+.row2{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 245%;
+    height: 50px;
+    text-align: center;
+}
+.product{
+    display: flex;
+    background-color: rgb(119, 43, 43);
+    height: 300px;
+}
+.product-list{
+    color: #fff;
+    width: 30%;
+    margin: 45px;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+.image2{
+    margin-top: 10px;
+    text-align: center;
+}
+.image2 img{
+    border-radius: 10px;
+    width: 130px;
+}
+.right{
+    text-align: left;
+    margin-left: 20px;
+}
+.product-list h3{
+    margin-left: 10px;
+}
+.product-list p{
+    line-height: 40px;
+    padding: 0.5em;
+    font-size: 20px;
+}
+.product-list a{
+    text-decoration: none;
+    font-style: italic;
+    color: #6b1dc5;
+    cursor: pointer;
+}
+.product-list a:hover{
+    color: red;
+}
+
+footer{
+   position: absolute;
+   width: 100%;
+   top: 290%;
+   color: #fff;
+   text-align: center;
+   height: 100px;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.col1,.col2{
+    width: 40%;
+    margin: auto; 
+    text-align: left;
+}
+.col1{
+    margin-top: 80px;
+}
+.location-icon{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline;
+    margin-right: 20px;
+}
+.location-text h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.location-text p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.location-text a{
+    color: #fff;
+    text-decoration: none;
+}
+.about{
+    margin-top: 80px;
+}
+.about h3{
+    font-size: 70px;
+    text-align: center;
+}
+.about p{
+    font-size: 18px;
+    text-align: left;
+}
+.newsletter{
+    background-color: #CF6569;
+    display: table;
+    width: 540px;
+    padding: 50px 30px;
+    color: #fff;
+    margin-top: 40px;
+    /* margin-left: -50px; */
+    border-radius: 8px;
+}
+.newsletter h3{
+    font-size: 30px;
+    margin: 10px 0px 20px;
+    text-transform: uppercase;
+}
+.newsletter p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.newsletter input{
+    width: 70%;
+    height: 38px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.newsletter button{
+    width: 29%;
+    background-color: #4caf50;
+    border: none;
+    padding: 5px 10px;
+    height: 38px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+}
+@media all and (min-width: 50px) and (max-width:850px){
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .name h1{
+        color: #fff;
+        margin-top: 120px;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 18%;
+        /* display: none; */
+    }
+    .side-bar{
+        display: block; 
+        margin-right: 40px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .toggler{
+        height: 40px;
+        width: 40px;
+        display: block;
+        position: relative;
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .toggler div{
+        height: 3px;
+        width: inherit;
+        margin: 0;
+        background-color: rgb(100, 140, 194);
+        margin-top: 8px ;
+    }
+
+    nav{
+        margin-top: 0px;
+        display: none;
+        margin-right: 5px;
+    }
+    nav ul{
+        display: block;
+        text-align: right;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 5px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    nav ul li a:hover{
+       color: yellow;
+    }
+    .row1{
+        display: block;
+        top: 390%;
+    }
+    .row2{
+        display: block;
+        top: 525%;
+    }
+    .product{
+        display: block;
+        background-color: transparent;
+        height: 600px;
+    }
+    .product-list{
+        width: 90%;
+        display: block;
+    }
+    .product-list h3,.product-list p{
+        text-align: center;
+    }
+    .row{
+        width: 100%;
+        display: block;
+    }
+    .product-list{
+        width: 90%;
+        margin: auto;
+    }
+    .col1,.col2{
+        width: 90%;
+        margin: auto; 
+        text-align: center;
+    }
+    .newsletter{
+        width: 95%;
+        padding: 30px 15px;
+    }
+    .newsletter h3{
+        font-size: 20px;
+    }
+    .newsletter button{
+        font-size: 12px;
+    }
+    footer{
+        top: 670%;
+        height: 560px;
+    }
+}
