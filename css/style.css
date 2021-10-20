@@ -8,7 +8,6 @@ body{
     background-size: contain;
     width: 100%;
     height: 300vh;
-    font-family: arial;
     overflow-x: hidden;
 }
 .logo{
@@ -17,28 +16,22 @@ body{
     margin-bottom: 30px;
 }
 .logo img{
-    margin-top: 25px;
+    margin-top: 20px;
     width: 80px;
     height: 80px;
 }
 .toggler{
     display: none;
 }
-nav{
-    position: absolute;
-    top: 160px;
-    width: 100%;
-}
+
 nav ul{
     display: flex;
-    justify-content: space-evenly;  
-}
-li{
-    list-style: none;
+    justify-content: space-evenly;
+   
 }
 li a{
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     padding: 0.5em;
     text-decoration: none;
     font-weight: bolder;
@@ -67,7 +60,7 @@ a.active{
 }
 .content p{
     color: #fff;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 70px;
     margin-left: 10%;
     margin-right: 10%;
@@ -79,7 +72,7 @@ a.active{
     display: flex;
     width: 100%;
     position: absolute;
-    top: 205%;
+    top: 215%;
     height: 50px;
     text-align: center;
 }
@@ -87,7 +80,7 @@ a.active{
     display: flex;
     width: 100%;
     position: absolute;
-    top: 258%;
+    top: 270%;
     height: 50px;
     text-align: center;
 }
@@ -138,11 +131,11 @@ a.active{
 footer{
    position: absolute;
    width: 100%;
-   top: 310%;
+   top: 325%;
    color: #fff;
    text-align: center;
    height: 100px;
-   height: 430px;
+   height: 420px;
 }
 .row{
     width: 100%;
