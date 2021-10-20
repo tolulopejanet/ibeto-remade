@@ -117,11 +117,12 @@ a.active{
     line-height: 40px;
     padding: 0.5em;
     font-size: 20px;
+    
 }
 .product-list a{
     text-decoration: none;
     font-style: italic;
-    color: #6b1dc5;
+    color: darkgoldenrod;
     cursor: pointer;
 }
 .product-list a:hover{
@@ -131,10 +132,11 @@ a.active{
 footer{
    position: absolute;
    width: 100%;
-   top: 290%;
+   top: 285%;
    color: #fff;
    text-align: center;
    height: 100px;
+   height: 420px;
 }
 .row{
     width: 100%;
@@ -183,7 +185,7 @@ footer{
     width: 540px;
     padding: 50px 30px;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 120px;
     /* margin-left: -50px; */
     border-radius: 8px;
 }
@@ -219,6 +221,7 @@ footer{
     font-size: 14px;
     font-weight: bold;
     float: right;
+    cursor: pointer;
 }
 @media all and (min-width: 50px) and (max-width:850px){
     header{
